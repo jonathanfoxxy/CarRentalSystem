@@ -15,9 +15,10 @@ import javax.swing.JPanel;
  *
  * @author jonathan
  */
-public class CarInfo extends JFrame {
-    public CarInfo(){
-        super("Cars");
+public class MotorBikeInfo extends JFrame {
+    
+     public MotorBikeInfo(){
+        super("MotorBikes");
         
 		setSize(500, 500);
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -32,7 +33,7 @@ public class CarInfo extends JFrame {
             panel.setLayout(null);
 
 		
-		JButton car = new JButton("Audi");
+		JButton car = new JButton("Toyota");
 		car.setBounds(165, 110, 180, 25);
 		panel.add(car);
                 car.addActionListener(new ActionListener() {
@@ -46,7 +47,7 @@ public class CarInfo extends JFrame {
         }); 
            
 		
-		JButton Bus = new JButton("BMW");
+		JButton Bus = new JButton("Sazuki");
 		Bus.setBounds(165, 220, 180, 25);
 		panel.add(Bus);
                 Bus.addActionListener(new ActionListener() {
